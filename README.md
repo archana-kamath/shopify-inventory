@@ -35,15 +35,25 @@ npm install<br />
 npm start<br />
 <br />
 Steps to launch Spring Boot Application<br />
+Open Eclipse, import shopifyapp as an existing maven project.
 Go to application.properties file and Add AWS ID and Key to connect to the MySQL database on Amazon RDS. <br />
 Enter the database username and password. <br />
 Navigate to the below path and select the class, Right click -> Run As -> Java Application<br />
 /shopifyapp/src/main/java/com/shopify/shopifyapp/ShopifyappApplication.java<br />
 Spring Boot Application is configured to run on post 8082 - http://localhost:8082<br />
 
+If you get a main class not found error, do a maven 
 Notes<br />
 
 Backend code includes <br />
 1) Validation<br />
 2) Exception handling<br />
 3) Test cases (Positive and negative)<br />
+
+![alt text](https://github.com/archana-kamath/shopify-inventory/blob/main/screenprint/Add.JPG?raw=true)
+
+![alt text](https://github.com/archana-kamath/shopify-inventory/blob/main/screenprint/Delete.JPG?raw=true)
+
+![alt text](https://github.com/archana-kamath/shopify-inventory/blob/main/screenprint/Update.JPG?raw=true)
+
+![alt text](https://github.com/archana-kamath/shopify-inventory/blob/main/screenprint/View.JPG?raw=true)
