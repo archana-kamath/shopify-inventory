@@ -146,20 +146,26 @@ public class ItemService{
 	public String saveOrUpdate(Item aItem)throws ItemException {
 	
 			ItemEntity itemEntity =  itemRepository.findByItemId(aItem.getItemId());
+			
+			if(itemEntity==null) {
+				return "Not found";
+			}
+			
 			ItemEntity updateItemEntity = new ItemEntity();
 			
-			if(aItem.getItemName()==null) {
+			if(aItem.getItemName()==null || aItem.getItemName()=="") {
 				updateItemEntity.setItemName(itemEntity.getItemName());
 			}else {
 				updateItemEntity.setItemName(aItem.getItemName());
 			}
 		
-			if(aItem.getItemCategory()==null) {
+			if(aItem.getItemCategory()==null || aItem.getItemCategory()=="") {
 				updateItemEntity.setItemCategory(itemEntity.getItemCategory());
 			}else {
 				updateItemEntity.setItemCategory(aItem.getItemCategory());
 			}
 		
+			
 			if(aItem.getItemPrice()==null) {
 				updateItemEntity.setItemPrice(itemEntity.getItemPrice());
 			}else {
@@ -196,9 +202,13 @@ public class ItemService{
 			
 			updateItemEntity.setItemId(aItem.getItemId());
 			updateItemEntity.setItemId(itemEntity.getItemId());
+			updateItemEntity.setArrivalTime(itemEntity.getArrivalTime());
+			updateItemEntity.setItemURL(itemEntity.getItemURL());
+			
 		    itemRepository.save(updateItemEntity);
 		    return "Update success";
-			}
+		}
+
 
 	 	/**
 	 	 * @param multipartFile
