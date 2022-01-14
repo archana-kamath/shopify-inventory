@@ -24,7 +24,7 @@ AWS SDK and AWS Eclipse Toolkit, Visual Studio Code, Ecplise, Beyond Compare, My
 #### Steps to set up the application <br /><br />
 Download and install Java 11 and Maven. Set JAVA_HOME and MAVEN_HOME in environment variables.<br />
 Download and install npm and node.<br />
-Download and install git.<br />
+Download and install git. Set up Eclpise and Visual studio <br />
 
 #### Steps to launch Reach Application<br />
 Do git init and clone the repository.<br />
@@ -41,18 +41,20 @@ Application class - /shopifyapp/src/main/java/com/shopify/shopifyapp/ShopifyappA
 Spring Boot Application is configured to run on post 8082 - http://localhost:8082<br />
 
 #### Possible errors
-1)If you get a main class not found error, do a Maven update. 
-2)Change the port if the above mentioned ports are not available.
+1)If you get a main class not found error, do a Maven update. <br />
+2)Change the port if the above mentioned ports are not available.<br />
 
 #### Backend code includes <br />
 1) Validation<br />
 2) Exception handling<br />
 3) Test cases (Positive and negative)<br />
 
-#### Action Items:
-1) The application can be deployed on EC2(backend) and S3(Frontend).
-2) To add more valiations.
-3) Write more test cases to increase the coverage.
+#### Action Items
+1) The application can be deployed on EC2(backend) and S3(Frontend).<br />
+2) To add more valiations.<br />
+3) Write more test cases to increase the coverage.<br />
+
+#### Screenprint of Application 
 
 ![alt text](https://github.com/archana-kamath/shopify-inventory/blob/main/screenprint/Add.JPG?raw=true)
 
