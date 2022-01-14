@@ -3,7 +3,7 @@
 
 #### Developer : Archana Miyar Kamath <br />
 #### [LinkedIn](https://www.linkedin.com/in/archana-kamath-018/)<br />
-#### Application video demonstration - [Link](https://drive.google.com/drive/folders/1tlYm00xOfeotzrBGp1FgK-K3XHtPP1mD)<br />
+#### Application video demonstration - [Link](https://drive.google.com/file/d/10nxelN67LGNXgqxTXyzKVWGoDIDfjEEV/view?usp=sharing)<br />
 
 #### User features <br />
 •	Add item details to the database along with an image of item.<br />
