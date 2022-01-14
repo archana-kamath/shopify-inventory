@@ -7,7 +7,7 @@
 •	Update item details in the database<br />
 •	List all the item details with a link to view the picture of item<br />
 •	Uploaded image is saved and can be viewed on view page  <br />
-2nd Option from provided list - Allow image uploads AND store image with generated thumbnails
+2nd Option from provided list - Allow image uploads and store image with generated thumbnails
 
 
 ### Tools and technologies:
@@ -47,6 +47,3 @@ Backend code includes <br />
 1) Validation<br />
 2) Exception handling<br />
 3) Test cases (Positive and negative)<br />
-
-
-
